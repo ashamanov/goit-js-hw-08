@@ -28,4 +28,5 @@ function submitFoo(event) {
   event.preventDefault();
   event.currentTarget.reset();
   localStorage.removeItem('feedback-form-state');
+  textArea.textContent = '';
 }
